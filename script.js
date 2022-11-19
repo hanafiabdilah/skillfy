@@ -1,5 +1,20 @@
 $(document).ready(() => {
 
+    const navbar = document.querySelector('nav')
+    const checkNavbarIsTop = () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scroll')
+        } else {
+            navbar.classList.remove('scroll')
+        }
+    }
+
+    checkNavbarIsTop()
+
+    addEventListener('scroll', () => {
+        checkNavbarIsTop()
+    })
+
     const coursePrevButton = $(".course .dots-nav button.prev");
     const courseNextButton = $(".course .dots-nav button.next");
     const courseCarousel = $(".course .items")
