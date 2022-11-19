@@ -435,6 +435,20 @@ footer ul li a:hover {
     color: #b3b3b3;
 }
 
+@media (max-width: 1400px) {
+    .hero h1 {
+        font-size: 3.5em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .hero .box {
+        height: 550px;
+    }
+}
+
 @media (max-width: 990px) {
     nav {
         background-color: #fff;
@@ -447,5 +461,13 @@ footer ul li a:hover {
 
     nav ul li {
         margin: 0;
+    }
+
+    .hero {
+        padding-top: 150px;
+    }
+
+    .hero .box {
+        height: 600px;
     }
 }
