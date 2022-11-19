@@ -64,6 +64,22 @@ body {
     border-radius: 24px;
 }
 
+.hero .box .video .play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.hero .box .video .play i {
+    color: #F66962;
+}
+
 .hero .box .video img {
     width: 100%;
     height: 100%;
