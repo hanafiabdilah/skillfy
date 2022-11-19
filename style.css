@@ -244,6 +244,48 @@ body {
     font-weight: 400;
 }
 
+.review {
+    background-color: #EFEFF7;
+    padding: 80px 0;
+}
+
+.review .nav button {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: #F66962;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.review .items .item {
+    padding: 20px;
+    background-color: #fdfcff;
+    color: #8D8E94;
+    border-top-right-radius: 40px;
+    border-left: 4px solid #F68C1E;
+}
+
+.review .items .item h6 {
+    font-weight: 400;
+}
+
+.review .items .item p {
+    font-weight: 300;
+}
+
+.review .owl-dots {
+    margin-top: 30px !important;
+}
+
+.review .items .item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .partner {
     padding: 80px 0;
 }
@@ -259,7 +301,7 @@ body {
 }
 
 .partner .items .item {
-    padding: 10px;
+    padding: 5px 20px;
 }
 
 .partner .items .item img {

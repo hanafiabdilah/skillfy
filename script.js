@@ -33,4 +33,19 @@ $(document).ready(() => {
     partnerNextButton.click(() => {
         partnerCarousel.trigger('next.owl.carousel')
     })
+
+    const reviewPrevButton = $(".review .nav .prev")
+    const reviewNextButton = $(".review .nav .next")
+    const reviewCarousel = $('.review .items')
+    reviewCarousel.owlCarousel({
+        margin: 50,
+        items: 2,
+        loop: true,
+    })
+    reviewPrevButton.click(() => {
+        reviewCarousel.trigger('prev.owl.carousel')
+    })
+    reviewNextButton.click(() => {
+        reviewCarousel.trigger('next.owl.carousel')
+    })
 })
