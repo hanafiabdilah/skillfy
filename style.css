@@ -244,6 +244,39 @@ body {
     font-weight: 400;
 }
 
+.partner {
+    padding: 80px 0;
+}
+
+.partner .nav button {
+    height: 40px;
+    width: 40px;
+    background-color: #EFEFF7;
+    color: #F66962;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.partner .items .item {
+    padding: 10px;
+}
+
+.partner .items .item img {
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+}
+
+.partner .owl-stage {
+    padding: 10px 0;
+}
+
+.partner .owl-item.center {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 footer {
     padding: 60px 0 20px 0;
     background-color: #282834;
