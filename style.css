@@ -8,6 +8,11 @@
     border-radius: 5px;
 }
 
+.button-primary:hover {
+    color: #fff;
+    background-color: #e5615a;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -223,4 +228,18 @@ body {
 
 .category .card.light .card-body p {
     color: #fff;
+}
+
+.join {
+    padding: 80px 0;
+    background-image: url('images/join.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.join h3 {
+    color: #645D84;
+    font-size: 1.3em;
+    font-weight: 400;
 }
