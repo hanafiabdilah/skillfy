@@ -467,7 +467,21 @@ footer ul li a:hover {
         padding-top: 150px;
     }
 
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
     .hero .box {
         height: 600px;
+    }
+}
+
+@media(max-width: 600px) {
+    .hero .box {
+        height: 500px;
     }
 }
