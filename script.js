@@ -62,8 +62,13 @@ $(document).ready(() => {
     const reviewCarousel = $('.review .items')
     reviewCarousel.owlCarousel({
         margin: 50,
-        items: 2,
+        items: 1,
         loop: true,
+        responsive: {
+            900: {
+                items: 2,
+            }
+        }
     })
     reviewPrevButton.click(() => {
         reviewCarousel.trigger('prev.owl.carousel')
