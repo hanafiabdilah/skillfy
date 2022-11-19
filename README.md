@@ -1,2 +1,2 @@
 # Skillfy
-![alt text](https://github.com/hanafiabdilah/skillfy/cover.png?raw=true)
+![alt text](https://github.com/hanafiabdilah/skillfy/blob/master/cover.png?raw=true)
