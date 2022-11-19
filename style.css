@@ -243,3 +243,33 @@ body {
     font-size: 1.3em;
     font-weight: 400;
 }
+
+footer {
+    padding: 60px 0 20px 0;
+    background-color: #282834;
+    color: #8D8E94;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+footer ul {
+    margin-top: 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin: 15px 0;
+}
+
+footer ul li a {
+    color: #8D8E94;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #b3b3b3;
+}
