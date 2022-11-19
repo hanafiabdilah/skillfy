@@ -225,6 +225,9 @@ nav ul li {
     text-decoration: none;
     color: #333;
     border: none;
+    padding: 20px 10px;
+    height: 330px;
+    overflow: scroll;
 }
 
 .category .card.light {
@@ -447,6 +450,14 @@ footer ul li a:hover {
     .hero .box {
         height: 550px;
     }
+
+    .category .card {
+        height: 390px;
+    }
+
+    .category .card .card-body .icon {
+        width: 30%;
+    }
 }
 
 @media (max-width: 990px) {
@@ -478,6 +489,14 @@ footer ul li a:hover {
     .hero .box {
         height: 600px;
     }
+
+    .category .card {
+        height: 450px;
+    }
+
+    .category .card .card-body .icon {
+        width: 35%;
+    }
 }
 
 @media(max-width: 768px) {
@@ -485,10 +504,22 @@ footer ul li a:hover {
         margin-top: 10px;
         text-align: start;
     }
+
+    .category .card {
+        height: 340px;
+    }
 }
 
 @media(max-width: 600px) {
     .hero .box {
         height: 500px;
+    }
+
+    .category .card {
+        height: auto;
+    }
+
+    .category .card .card-body .icon {
+        width: 25%;
     }
 }
