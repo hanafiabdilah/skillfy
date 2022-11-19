@@ -522,4 +522,9 @@ footer ul li a:hover {
     .category .card .card-body .icon {
         width: 25%;
     }
+
+    .join {
+        padding: 80px 0;
+        background-position: -260px;
+    }
 }

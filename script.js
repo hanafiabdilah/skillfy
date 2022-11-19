@@ -19,7 +19,7 @@ $(document).ready(() => {
     const courseNextButton = $(".course .dots-nav button.next");
     const courseCarousel = $(".course .items")
     courseCarousel.owlCarousel({
-        margin: 10,
+        margin: 20,
         items: 1,
         dots: true,
         responsive: {
