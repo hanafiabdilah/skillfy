@@ -527,4 +527,8 @@ footer ul li a:hover {
         padding: 80px 0;
         background-position: -260px;
     }
+
+    footer p {
+        font-size: 0.8em;
+    }
 }
