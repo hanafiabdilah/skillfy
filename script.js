@@ -45,10 +45,24 @@ $(document).ready(() => {
     partnerCarousel.owlCarousel({
         center: true,
         margin: 50,
-        items: 6,
+        items: 2,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 3000
+        autoplayTimeout: 3000,
+        responsive: {
+            768: {
+                items: 3,
+            },
+            900: {
+                items: 4,
+            },
+            1200: {
+                items: 5,
+            },
+            1400: {
+                items: 6
+            }
+        }
     })
     partnerPrevButton.click(() => {
         partnerCarousel.trigger('prev.owl.carousel')
