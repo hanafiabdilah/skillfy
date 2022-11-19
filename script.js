@@ -20,8 +20,16 @@ $(document).ready(() => {
     const courseCarousel = $(".course .items")
     courseCarousel.owlCarousel({
         margin: 10,
-        items: 3,
+        items: 1,
         dots: true,
+        responsive: {
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 3
+            }
+        }
     });
     coursePrevButton.click(() => {
         courseCarousel.trigger('prev.owl.carousel')

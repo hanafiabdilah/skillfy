@@ -480,6 +480,13 @@ footer ul li a:hover {
     }
 }
 
+@media(max-width: 768px) {
+    .course .filter select {
+        margin-top: 10px;
+        text-align: start;
+    }
+}
+
 @media(max-width: 600px) {
     .hero .box {
         height: 500px;
